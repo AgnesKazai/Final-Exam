@@ -24,20 +24,25 @@ SPRING-REST JWT DEMO
 3,Data Flow
 
 CONNETIONWITHMYSQL/TODO
+
 -layerek, componensek, repository-adattárolás bemutatása
 
 -------------------------------------------------------------------------------------------
 4, Testing
 
 JUNIT
+
 MOCKITO
+
 ENDPOINTTESTING-MockMVC
+
 JPATESTING-Testentity, component testing
 
 ---------------------------------------------
 5, Database
 
 CONNETIONWITHMYSQL/TODO
+
 https://github.com/green-fox-academy/AgnesKazai/blob/master/week-09/day-01_SQL/SQLMovieRatingQuery_Exercises_1.txt
 
 ----------------------------------------------
