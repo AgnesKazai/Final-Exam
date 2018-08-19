@@ -46,3 +46,12 @@ CONNETIONWITHMYSQL/TODO
 https://github.com/green-fox-academy/AgnesKazai/blob/master/week-09/day-01_SQL/SQLMovieRatingQuery_Exercises_1.txt
 
 ----------------------------------------------
+6, Refactor
+
+REFACTORING
+-konstruktor duplikáció, Controller üzleti logika vs. Service
+
+REFACTORSTATEMENT
+-if else komplexitás
+
+---------------------------------------------
