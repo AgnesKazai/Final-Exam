@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Thymeleaf Exercise #</title>
+    <link rel="stylesheet" th:href="@{/style.css}"/>
+    <meta charset="utf-8"/>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th {
+            background-color: lightgrey;
+        }
+        td, th {
+            border: groove;
+            text-align: left;
+        }
+    </style>
+    <title>TODOS FOR TODAY</title>
+</head>
+<body>
+<h1 align="center">TODOS FOR TODAY</h1>
+<h2 th:align="center"><a th:href="@{/add}">Add new todo</a></h2>
+<table align="center">
+    <tr align="center">
+        <th>ID</th>
+        <th>ACTION</th>
+        <th>DONE</th>
+        <th>URGENT</th>
+
+    </tr>
+    <tr th:each="todo : ${todoslist}" th:object="${todo}">
+        <td th:text="*{id}"></td>
+        <td th:text="*{title}"></td>
+        <td th:text="*{done}"></td>
+        <td th:text="*{urgent}"></td>
+        <td>
+            <form action="#" th:action="@{/delete/} + *{id}" method="post">
+                <input class="btn btn-warning" th:value="delete" type="submit"/>
+            </form>
+        </td>
+        <td>
+            <form action="#" th:action="@{/edit/} + *{id}" method="get">
+                <input class="btn btn-warning" th:value="edit" type="submit"/>
+            </form>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
