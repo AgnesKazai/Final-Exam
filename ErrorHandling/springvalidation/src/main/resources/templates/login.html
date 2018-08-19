@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+
+<p th:text="${errormessage}" th:style="'color: red'"></p>
+<form name="login" th:action="@{/log}" method="post">
+    <h2>Please register</h2>
+    <input type="text" id="username" name="username" placeholder="Felhasználói név"/>
+    <input type="password" id="password" name="password" placeholder="Jelszó"/>
+    <p></p>
+    <div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Registration</button>
+    </div>
+</form>
+</body>
+</html>
