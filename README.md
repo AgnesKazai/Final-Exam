@@ -4,7 +4,7 @@
 
 REDDIT (cmd, Mysql -u aze -p asd)
 -GET/POST/PUT demonstrate, 
--Error handlingto an endpont
+-Error handling to an endpoint
 
 ENDPOINTPDF
 -pdf letöltése: A program megnyit egy adatfolyamot az információforráshoz, sorban kiolvassa és írja az infót.
@@ -36,7 +36,7 @@ MOCKITO
 
 ENDPOINTTESTING-MockMVC
 
-JPATESTING-Testentity, component testing
+JPATESTING-TestEntity, component testing
 
 ---------------------------------------------
 5, Database
@@ -55,3 +55,21 @@ REFACTORSTATEMENT
 -if else komplexitás
 
 ---------------------------------------------
+7, OOP
+
+CONNETIONWITHMYSQL/TODO
+
+---------------------------------------------------------------------------------------
+8, Error Handling
+
+REDDIT (cmd, Mysql -u aze -p asd) 
+-try, Catch to endpoint
+ 
+EMAILVALIDATION
+SPRINGVALIDATION
+-validation
+
+ERRORHANDLINGWITHEXCEPTIONHANDLER
+-errorhandling
+
+-------------------------------------------------------------------------------------------
