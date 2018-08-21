@@ -24,7 +24,7 @@ public class JWTAuthenticationToken implements Authentication {
         // Serializable
     }
 
-    /*az authentikációs objektum létrehozásako*/
+    /*az authentikációs objektum létrehozásakor*/
     public JWTAuthenticationToken(String token) {
 
         this.payload = JWTUtility.decode(token);
