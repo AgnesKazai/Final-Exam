@@ -9,7 +9,7 @@ import org.springframework.security.core.AuthenticationException;
  */
 public class JWTAuthenticationProvider implements AuthenticationProvider {
 
-    /*setting token to authenticated status*/
+
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
 
@@ -18,7 +18,7 @@ public class JWTAuthenticationProvider implements AuthenticationProvider {
         return authentication;
     }
 
-    /*Megállípítja, hogy a kapott token objektum validálható-e ezzel a providerrel.*/
+
     @Override
     public boolean supports(Class<?> authentication) {
 
