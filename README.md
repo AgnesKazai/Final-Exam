@@ -7,8 +7,7 @@ REDDIT (cmd, Mysql -u aze -p asd)
 -Error handling to an endpoint
 
 ENDPOINTPDF
--pdf letöltése: A program megnyit egy adatfolyamot az információforráshoz, sorban kiolvassa és írja az infót.
-Reader és Writer metódusai karakterek és karaktertömbök olvasására és írására alkalmasak. 
+-pdf letöltése 
 
 -------------------------------------------------------------------------------------------
 2, Authentication
